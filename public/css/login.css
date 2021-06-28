@@ -1,0 +1,39 @@
+#login{
+    background-color: #ebebeb;
+    display:flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    
+}
+#login input{
+    width: 50vw;
+}
+#login button{
+    width: 50vw;
+    margin: 2vw;
+    background-color: #1259c3;
+    color:white;
+    border:none;
+    border-radius: 3%;
+    height: 3vh;
+    font-family: 'Roboto', sans-serif;
+
+}
+#login button {
+    transition: all 450ms ease-in;
+}
+#login button:hover{
+    background-color: #0022AA;
+}
+
+#formulario input{
+    font-family: 'Roboto', sans-serif;
+    border-radius: 3%;
+    height: 3vh;
+    border: none;
+    margin:2vw;
+    align-self: center;
+    
+    
+}

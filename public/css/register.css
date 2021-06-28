@@ -1,0 +1,79 @@
+
+#register{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #ebebeb;
+    width:35vw;
+    align-items: center;
+
+}
+#register p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 25px;
+    align-self: flex-start;
+}
+#register input {
+    width:30vw;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    border-radius: 3%;
+    height: 3vh;
+    border: none;
+    margin:2vw;
+    align-self: center;
+}
+#register article{
+    display: flex;
+    width: 30vw;
+}
+#artVertical{
+    display: flex;
+    flex-direction: column;
+    
+}
+#artVertical input{
+    width: 10vw;
+
+}
+
+#artVertical article{
+    display: flex;
+}
+#artVertical label{
+    padding-top: 4vh;
+}
+.boton{
+    width: 30vw;
+    height: 34px;
+    margin: 2vw;
+    background-color: #1259c3;
+    color:white;
+    border:none;
+    border-radius: 3%;
+    
+    font-family: 'Roboto', sans-serif;
+
+}
+/* #prueba {
+    margin: 40%;
+    width:90px;
+    height: 90px;
+    background-color: #1259c3;
+    transition:  450ms;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    font-size: 11111px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition:transform 4540ms ease-in
+}
+
+
+#prueba:hover{
+    transform: rotateY(9000deg);
+} */
+#userProfile {
+    display: flex;
+    align-items: center;
+}

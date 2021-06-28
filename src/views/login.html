@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registracion en Mercadoliebre</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/norma.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">  
+    <!-- iconitos -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+rel="stylesheet" />
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/header.css">
+</head>
+<body>
+    <header class="mainHeader">
+        <nav class="mainHeaderTopBar">
+          <figure id="logoMercadolibre">
+              <img src="../img/logo-mercado-liebre.svg">
+          </figure>
+          <label for="barraBusqueda"></label>
+          <form class="barraBusqueda" action="#" id="barraBusquedaForm">
+            <input type="search" id="barraBusqueda" name="barraBusqueda" placeholder="Buscar productos, marcas">
+            <button id="botonBarra" type="submit"><i class="fa fa-search"></i></button>  
+          </form>
+          
+        </nav>
+        <h2 class="textoHeader">Comprá en cuotas y sin tarjeta de crédito<i class="fas fa-hand-holding-usd"></i></h2>
+        <a href="http://www.google.com.ar" class="hamburguerButton">
+            <i class="fas fa-bars"></i>
+        </a>
+        <nav class="mainHeaderBottomBar">
+         <ul  class="leftNavBar">
+           <li><a href="http://www.google.com.ar">Ofertas</a></li>
+           <li><a href="http://www.google.com.ar">Tiendas Oficiales</a></li>
+           <li><a href="http://www.google.com.ar">Vender</a></li>
+           <li><a href="http://www.google.com.ar">Ayuda</a></li>
+         </ul>
+         <ul  class="rightNavBar">
+            <li><a href="/register">Creá tu cuenta<i class="fas fa-credit-card"></i></a></li>
+            <li><a href="/login">Ingresá<i class="fas fa-sign-in-alt"></i></a></li>
+            <li><a href="http://www.google.com.ar">Mis compras<i class="fas fa-shopping-basket"></i></a></li>
+         </ul>
+    </header>
+    <main class="contentLogin">
+        <section id="login">
+   <form action="/" method="POST" id="formulario">
+       <input type="text" name="usuario" placeholder="Nombre de usuario">
+       <input type="password" name="password" placeholder="Contraseña">
+       <button type="submit">Enviar</button>
+   </form>
+   
+        </section> 
+</main>
+</body>
+</html>

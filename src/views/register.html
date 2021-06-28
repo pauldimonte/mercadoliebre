@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <meta charset="UTF-8" >
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Registracion en Mercadoliebre</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/register.css">
+        <link rel="stylesheet" href="css/norma.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">  
+        <!-- iconitos -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    rel="stylesheet" />
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/home.css">
+        <link rel="stylesheet" href="css/header.css">
+    </head>
+    <body>
+        <section >
+        <form action="/" method="GET" id="register" >
+            <input type="text" name="nombreYApellido" placeholder="Nombre Y Apellido">
+            <input type="text" name="usuario" placeholder="Nombre de usuario">
+            <input type="text" name="email" placeholder="Email">
+            <p>Fecha de Nacimiento</p>
+            <input type="date" name="fechaNacimiento">
+            <input type="text" name="domicilio" placeholder="Domicilio">
+            <p>Perfil de usuario</p>
+            <article>
+            <article id="userProfile">
+            <label for="radio1">Comprar</label>
+            <input type="radio" name="perfilUsuario" value="Comprar" id="radio1">
+            <label for="radio2">Vender</label>
+            <input type="radio" name="perfilUsuario" value="Vender" id="radio2">
+            </article>
+
+            
+            </article>
+            <p>Intereses</p>
+            <section id="artVertical">
+            <article>
+            <input type="checkbox" name="Intereses" value="Electro" id="checkbox1">
+            <label for="checkbox1">Electro</label>
+            </article>
+            <article>
+                <input type="checkbox" name="Intereses" value="Moda" id="checkbox2">
+                <label for="checkbox2">Moda</label>
+            </article>
+            <article>
+                <input type="checkbox" name="Intereses" id="checkbox3" value="Hogar">
+                <label for="checkbox3">Hogar</label>
+            </article>
+            <article>
+                <input type="checkbox" name="Intereses" id="checkbox4" value="Jugueteria">
+                <label for="checkbox4">Jugueteria</label>
+            </article>
+            <article>
+                <input type="checkbox" name="Intereses" id="checkbox5" value="Vida sana">
+                <label for="checkbox5">Vida sana</label>
+            </article>
+            </section>
+            <input type="file" name="avatar" accpet=".jpg, .gif, .bpm, .jpeg">
+            <input type="password" name="password" placeholder="Contraseña">
+            <input type="password" name="password" placeholder="Confirmar contraseña">
+            <button type="reset" class="boton">Reiniciar formulario</button>
+            <button  type="submit" class="boton">Home Page</button>
+        </form>
+
+    </section>
+    <!-- <div id="prueba">
+        <p>asd</p>
+       </div> -->
+       
+    </body>
+</html>

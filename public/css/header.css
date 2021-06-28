@@ -1,0 +1,79 @@
+.body{
+    display:flex;
+    width:100vw;
+    flex-wrap:wrap;
+    flex-direction: column;
+    /* border: rgba(190, 189, 189, 0.911) 5px solid; esto no va me parece*/
+}
+
+header{
+    display: flex;
+    background-color: #EAC926;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    flex-wrap: wrap;
+     
+}
+.arregloHeader{
+    margin-top: 2vh;
+}
+
+#searchbar{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100vw;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: red; SOLO PARA PRUEBA*/
+}
+
+#navbarBar{
+    display: flex;
+    order:1;
+    /* flex-grow: 0.5; */
+    justify-content:flex-end;
+}
+#lupa{
+    font-size:1em;
+    background-color: white;
+    border:2px black solid;
+    padding: 0.1em;
+    order:2;
+   
+}
+/* #botonBarra{
+    font-size: 10px;
+    align-self:center;
+} */
+
+header i{
+    font-size:1em;
+    margin-bottom: 10px;
+}
+li{
+    font-size: 18px;
+}
+
+#iconitobarras{
+    /* margin-left: 46%; */
+    text-align: center;
+    color:white;
+    background: #1259c3;
+    font-size: 1.5em;
+    border: 14px #1259c3 solid;
+    border-radius:14%;
+    margin-bottom: 30px;
+    width:49px;
+    height: 49px;
+}
+
+
+
+.lista{
+     padding:0%;
+  
+}
+
+.centrado{
+    align-self: flex-center;
+}
